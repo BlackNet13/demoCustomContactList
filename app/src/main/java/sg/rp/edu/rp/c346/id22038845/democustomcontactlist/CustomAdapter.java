@@ -41,7 +41,9 @@ public class CustomAdapter extends ArrayAdapter {
         tvCode.setText("+" + currentItem.getCountryCode());
         tvNum.setText(currentItem.getPhoneNum() + "");
 
+        //https://www.pexels.com/photo/photo-of-man-skateboarding-2118464/
         String male = "https://images.pexels.com/photos/2118464/pexels-photo-2118464.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2";
+        //https://www.pexels.com/photo/women-s-white-framed-sunglasses-2690323/
         String female = "https://images.pexels.com/photos/2690323/pexels-photo-2690323.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2";
 
         if(currentItem.getGender()=='M'){
